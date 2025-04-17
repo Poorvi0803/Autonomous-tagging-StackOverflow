@@ -32,27 +32,3 @@ The proposed solution of using the one-vs-all technique with Logistic Regression
 
 - Real-time Tagging: 
  New questions are automatically tagged as soon as they are posted, ready for real-time categorization. This rapid tagging ensures that questions are available to users with the right expertise as soon as they are published. 
-
-
-
-## Technology
--  We have chosen an efficient and well-rounded technology stack for our autonomous tagging system:
-
-1. *Flask:* Lightweight Python web framework for building APIs.
-2. *Scikit-learn:* Machine learning library for training and testing models.
-3. *Pandas and NumPy:* Libraries for preprocessing and handling data.
-
-## Scope of problem
- 
- > Choose appropriate machine learning algorithms from Scikit-learn such as Logistic Regression and Linear SVC to binary classify the  tags. Use a one-for-all strategy to create separate templates for each tag. To evaluate the performance of the model, divide the data set into training and test sets. Model evaluation and tuning
- 
->Evaluate models using metrics such as precision, recall, F1 score, and precision. Adjust hyperparameters to optimize model performance using methods such as grid search or random search. API development with Flask
- 
- >Design and build API endpoints using Flask to serve models trained  for tag prediction.  Implement input validation and error handling mechanisms to ensure robust API functionality.  Integration with Stack Overflow
- 
- > Develop mechanisms to extract query text and contextual information from Stack Overflow. Enable API calls to send queries to the autonomous tagging system and receive predicted tags.  Real-time prediction and detection 
- 
- > Configure the system to predict and assign tags in real time when new questions are posted to Stack Overflow.  Feedback and continuous improvement
- 
- > Incorporate user interaction and feedback to continually improve  tagging accuracy over time. Refine templates regularly to adapt to evolving community trends and patterns. Documentation and Implementation: 
-
